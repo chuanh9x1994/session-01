@@ -1,53 +1,98 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>chu tuan anh</title> 
-        <!-- tiêu đề của web -->
-        <link rel="shortcut icon" href="./iamge/tải xuống.jpg" type="image/x-icon"> 
-        <!-- link:favicon - ảnh con của web -->
-    </head>
-    <body>
-        <h1> àkjsdfkjsdfndsf</h1>
-        <h1 style="background-color: red;">gsdjfdsjbjkb</h1>
-        <h1 style="background-color: greenyellow;">fsdfsdfsdfdsf</h1>
-        <span style="background-color: yellow;">fdgrgsfasdaddfsd</span>
-        <span style="background-color: violet;">fsfsdfdsfhg</span>
-        <!-- 
-            MỘT SỐ THẺ BLOCK
-        div: division : thẻ khu vực.
-        section:   thẻ khu vực.
-        header: phần đầu nội dung của trang web.
-        nav: ( navigation): thanh điều hướng.
-        main: chứa nội dung chính của trang.
-        article: chứa nội dung riêng biệt, độc lập như các bài báo ..
-        aside: chứa nội dung quảng cáo.
-        footer: chứa nội dung chân trang - phần cuối của trang.
-        p: chứa nội dung 1 đoạn văn bản.
-        ul-li: unorder-list: danh sách không có thứ tự.
-        ol-li: order-list: danh sách có thứ tự.
-        ...
-            MỘT SỐ THẺ INLINE
-        input: 
-        label:
-        span: chứa đoạn text.
-        i: in nghiêng.
-        em: in nghiên.
-        strong: bôi đậm.
-        b: bôi đậm.
-        img: thẻ hình ảnh.
-        a: thẻ liên kết.
-        br: thẻ xuống dòng.
 
-         -->
-        <br> <strong>js tháng 11</strong> <br>
-        <b>js tháng 11</b>
-        <progress max="100" value="30"></progress> 
-        <!-- progress là element hoặc là thẻ 
-        max, value - là thuộc tính (attribute)--> 
-        <audio controls autoplay>
-            <source src="">
-        </audio>
-    </body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>chu tuan anh</title>
+    <!-- tiêu đề của web -->
+    <link rel="shortcut icon" href="./iamge/tải xuống.jpg" type="image/x-icon">
+    <!-- link:favicon - ảnh con của web -->
+</head>
+
+<body>
+    <header>
+        <h1>Thông tin cá nhân của tôi</h1>
+        <h3>Họ và Tên</h3>
+        <p>Tôi Chu Tuấn Anh, sinh năm 1994 tại Hà Nội.</p>
+        <h3>Địa chỉ</h3>
+        <p>Hiện tôi đang sống ở Hà Nội, Việt Nam.</p>
+        <h3>Sở Thích</h3>
+        <p>Tôi thích đọc sách, đá bóng và ca hát.</p>
+        <h3>Công tác</h3>
+        <p>Học viên tại Rekki Academy</p>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#">Trang chủ</a></li>
+            <li><a href="#">Giới thiệu</a></li>
+            <li><a href="#">Dịch vụ</a></li>
+            <li><a href="#">Bài viết</a></li>
+            <li><a href="#">Liên hệ</a></li>
+        </ul>
+        <h1>Đây là nội dung trang web</h1>
+    </nav>
+    <article>
+        <section>
+            <h1>Đây là trang web của tôi</h1>
+            <p>Chào mừng đến với trang web của tôi. Đây là một ví dụ về cách sử dụng thẻ img để hiển thị hình ảnh trên
+                trang web.</p>
+            <img src="./iamge/tải xuống.jpg" alt="abcd" />
+            <p>Trên đây là một hình ảnh ngẫu nhiên được tải từ trang web Picsum. Bạn có thể thay đổi kích thước hình ảnh
+                bằng cách chỉnh độ rộng
+                và chiều cao trong thuộc tính "width" và "height" của thẻ. Bạn cung có thể thêm một mô tả hình ảnh bằng
+                thuộc tính "alt".</p>
+        </section>
+        <section>
+            <h1>Các món ăn yêu thích của tôi</h1>
+            <ul>
+                <li>Bún chả</li>
+                <li>Phở</li>
+                <li>Bánh mỳ</li>
+                <li>Gà nướng</li>
+            </ul>
+        </section>
+        <section>
+            <h1>Các địa điểm du lịch yêu thích của tôi</h1>
+            <ol>
+                <li>Đà Lạt</li>
+                <li>Phú Quốc</li>
+                <li>SaPa</li>
+                <li>Hạ Long</li>
+            </ol>
+        </section>
+        <section>
+            <h1>Sách yêu thích của tôi</h1>
+            <h2>Giới thiệu</h2>
+            <p>Tôi là một đọc giả đam mê về sách. Dưới đây là những cuốn sách mà tôi yêu thích.</p>
+            <dl>
+                <dt>
+                    <h3>Sách tiểu thuyết</h3>
+                </dt>
+                <dd>Cuốn "Đắc nhân tâm" của Dale Carnegie là một trong những cuốn sách tâm lý học kinh điển nhất</dd>
+                <dt>
+                    <h3>Sách khoa học</h3>
+                </dt>
+                <dd>Cuốn "Vũ trụ trong lòng bàn tay" của Neil deGrasse Tyson là một cuốn sách khoa học tuyệt vời, giúp
+                    ban hiểu rõ hơn về vũ trụ.</dd>
+                <dt>
+                    <h3>Sách kinh doanh</h3>
+                </dt>
+                <dd>"Bí mật của sự giàu có" của T. Harv là một cuốn sách kinh doanh hữu ích, giúp bạn định hướng tài
+                    chính cho mình.</dd>
+            </dl>
+        </section>
+    </article>
+    <aside>
+        <h2>Bài viết liên quan</h2>
+        <ul>
+            <li><a href="#">10 cuốn sách hay nhất về khoa học</a></li>
+            <li><a href="#">Cách trở thành một đọc giả đam mê</a></li>
+        </ul>
+    </aside>
+    <footer>
+        <p>Liên hệ: example@gmail.com</p>
+    </footer>
+</body>
+
 </html>
