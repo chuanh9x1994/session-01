@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <table border="1" cellpadding="10" cellspacing="10">
+        <!-- cellpadding là khoảng cách từ đường viền đến text, 
+            cellspacing là khoảng cách từ viền của ô đến viền của bảng. -->
+        <caption>Danh sách học viên</caption>
+        <!-- caption là thẻ tiêu để chung của bảng. -->
+        <thead>
+            <!-- thead :phần đầu bảng -->
+            <tr bgcolor="gray">
+                <th>ID học sinh</th>
+                <th>Tên đăng nhập</th>
+                <th>Họ và tên  </th>
+                <th>TT làm bài</th>
+                <!-- sử dụng thẻ "th" để tự động bôi đậm và căn giữa ô.  -->
+            </tr>
+        </thead>
+        <tbody>
+            <!-- tbody : phần thân bảng -->
+            <tr>
+                <td align="center">329</td>
+                <td>vinhhdq97</td>
+                <td>Huỳnh Đức Quang Vinh</td>
+                <td>Làm đầy đủ</td>
+            </tr>
+            <tr>
+                <td align="center">450</td>
+                <td>vananh</td>
+                <td>Vân Anh</td>
+                <td>Làm đầy đủ</td>
+            </tr>
+            <tr>
+                <td align="center">331</td>
+                <td>anhct</td>
+                <td>Chu Tuấn Anh</td>
+                <td>Làm đầy đủ</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <!-- tfoot: phần chân bảng -->
+            <tr>
+                <td colspan="3">Tổng số sv Nam</td>
+                <td>2</td>
+                <td colspan="3">Tổng số sv Nữ</td>
+                <td>1</td>
+                <!-- colspan : gộp các ô theo chiều ngang -->
+                <!-- rowspan : gộp các ô theo chiều dọc -->
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>

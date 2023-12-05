@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- Bài 1 -->
+    <h1 style="color: red;">BÀI 1:Tạo form đơn giản.</h1>
+    <form action="">
+        <h1 style="background-color: coral; text-align: center;">SỞ THÍCH CỦA BẠN</h1>
+        <label for="name">Họ và tên</label>
+        <input type="text" name="name" id="name"><br>
+        <label for="email">Email</label>
+        <input type="text" name="email" id="email"><br>
+        <label for="">Sở thích</label>
+        <input type="checkbox" name="" id="">
+        <label for="">Thể thao</label>
+        <input type="checkbox" name="" id="">
+        <label for="">Âm nhạc</label>
+        <input type="checkbox" name="" id="">
+        <label for="">Đọc sách</label><br>
+        <input type="checkbox" name="" id="">
+        <label for="">Lướt web</label>
+        <input type="checkbox" name="" id="">
+        <label for="">Chơi game</label>
+        <input type="checkbox" name="" id="">
+        <label for="">Điện ảnh</label><br>
+        <input type="checkbox" name="" id="">
+        <label for="">Du lịch</label><br>
+        <input type="button" value="Gửi Thông tin">
+        <input type="reset" value="Nhập lại"><br><br>
+    </form>
+    <!--  -->
+    <form action="">
+        <h1 style="color: blue; background-color: cyan; text-align: center;">ĐĂNG KÝ HỌC VIÊN</h1>
+        <label for="name">Họ tên</label>
+        <input type="text" name="name" id="name"><br>
+        <label for="ngay sinh">Ngày sinh</label>
+        <input type="date" name="ngay sinh " id="ngay sinh"><br>
+        <label for="Gioi tinh">Giới tính</label>
+        <input type="radio" name="" id="">
+        <label for="">Nam</label>
+        <input type="radio" name="" id="">
+        <label for="">Nữ</label><br>
+        <label for="add">Địa chỉ</label>
+        <textarea name="dia chi" id="add" cols="30" rows="5"></textarea><br>
+        <label for="lop">Lớp</label>
+        <select name="" id="">
+            <option value="Chọn lớp">Chọn lớp</option>
+            <option value="Lớp 2">Lớp 2</option>
+            <option value="Lớp 3">Lớp 3</option>
+            <option value="Lớp 4">Lớp 4</option>
+            <option value="Lớp 5">Lớp 5</option>
+        </select><br>
+        <label for="email">Email</label>
+        <input type="text" name="email" id="email"><br>
+        <label for="dt">Điện thoại</label>
+        <input type="text" name="dt" id="dt"><br>
+        <input type="button" value="Đăng ký">
+        <input type="reset" value="Nhập lại"><br><br>
+    </form>
+
+    <!-- BÀI 2 -->
+    <h1 style="color: red;">BÀI 2:Tạo form lấy survey khách hàng.</h1>
+    <form action="">
+        <h3>Market Research Survey</h3>
+        <P>Please take a few moment to complete this satisfaction survey.</P>
+        <p><b>What is your range</b></p><br>
+        <select name="" id="">
+            <option value="">18-24</option>
+            <option value="">25-30</option>
+            <option value="">30-35</option>
+        </select>
+        <p><b>What is your yearly income range?</b></p><br>
+        <select name="" id="">
+            <option value="">$0 - $25.000</option>
+            <option value="">$25.000 - $100.000</option>
+            <option value="">> $100.00</option>
+        </select><br>
+        <!--  -->
+        <label><b>Identity</b> </label><br>
+        <input type="radio" name="identity" id="">
+        <label for="identity">Male</label><br>
+        <input type="radio" name="identity" id="">
+        <label for="identity">Female</label><br>
+        <input type="radio" name="identity" id="">
+        <label for="identity">Nonbimary</label><br>
+        <input type="radio" name="identity" id="">
+        <label for="identity">Other</label><br>
+        <input type="text"><br><br>
+        <!--  -->
+        <label> <b>Which of the following ....</b> </label><br>
+        <input type="checkbox" name="" id="">
+        <label for="">Product 1</label><br>
+        <input type="checkbox" name="" id="">
+        <label for="">Product 2</label><br>
+        <input type="checkbox" name="" id="">
+        <label for="">Product 3</label><br><br>
+        <!--  -->
+        <label><b>How often would ...</b></label><br>
+        <input type="radio" name="Product" id="">
+        <label for="identity">Daily</label><br>
+        <input type="radio" name="Product" id="">
+        <label for="identity">Weekly</label><br>
+        <input type="radio" name="Product" id="">
+        <label for="identity">Monthlyl</label><br><br>
+        <!--  -->
+        <label><b>What would you ...</b></label><br>
+        <table>
+            <thead></thead>
+            <tbody>
+                <tr>
+                    <td>$</td>
+                    <td><input type="text" name="" id="" size="5"></td>
+                    <td>.</td>
+                    <td><input type="text" name="" id="" size="1"></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>Dollars</td>
+                    <td></td>
+                    <td>Cents</td>
+                </tr>
+            </tbody>
+            <tfoot></tfoot>
+        </table>
+        <br><br>
+        <!--  -->
+        <label for="textarea"><b>What features ...</b></label><br>
+        <textarea name="" id="" cols="40" rows="5"></textarea><br>
+    </form>
+    <!--  -->
+    <p>Please rate your level of agreement with the following statements.</p>
+    <table border="1" cellspacing="0">
+        <thead>
+            <tr style="background-color: rgb(215, 215, 215);" height="40">
+                <th width="300"></th>
+                <th width="125">Strongly Disagree</th>
+                <th width="125">Disagress</th>
+                <th width="125">Agree</th>
+                <th width="125">Strongly Agree</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td style="font-weight: bold;">Our product are priced fairly.</td>
+                <td style="text-align: center;">
+                    <input type="radio" name="tt" id="1"><br>
+                    <label for="1">1</label>
+                </td>
+                <td style="text-align: center;">
+                    <input type="radio" name="tt" id="2"><br>
+                    <label for="2">2</label>
+                </td>
+                <td style="text-align: center;">
+                    <input type="radio" name="tt" id="3"><br>
+                    <label for="3">3</label>
+                </td>
+                <td style="text-align: center;">
+                    <input type="radio" name="tt" id="4"><br>
+                    <label for="4">4</label>
+                </td>
+            </tr>
+            <tr style="background-color: rgb(215, 215, 215);">
+                <td style="font-weight: bold;">Our product are higt quality.</td>
+                <td style="text-align: center;">
+                    <input type="radio" name="tt" id="1"><br>
+                    <label for="1">1</label>
+                </td>
+                <td style="text-align: center;">
+                    <input type="radio" name="tt" id="2"><br>
+                    <label for="2">2</label>
+                </td>
+                <td style="text-align: center;">
+                    <input type="radio" name="tt" id="3"><br>
+                    <label for="3">3</label>
+                </td>
+                <td style="text-align: center;">
+                    <input type="radio" name="tt" id="4"><br>
+                    <label for="4">4</label>
+                </td>
+            </tr>
+            <tr>
+                <td style="font-weight: bold;">You would recommend our product to a friend or coworker.</td>
+                <td style="text-align: center;">
+                    <input type="radio" name="tt" id="1"><br>
+                    <label for="1">1</label>
+                </td>
+                <td style="text-align: center;">
+                    <input type="radio" name="tt" id="2"><br>
+                    <label for="2">2</label>
+                </td>
+                <td style="text-align: center;">
+                    <input type="radio" name="tt" id="3"><br>
+                    <label for="3">3</label>
+                </td>
+                <td style="text-align: center;">
+                    <input type="radio" name="tt" id="4"><br>
+                    <label for="4">4</label>
+                </td>
+            </tr>
+        </tbody>
+        <tfoot></tfoot>
+    </table><br>
+    <input type="button" value="Submit">
+
+    <!-- BÀI 3 -->
+    <h1 style="color: red;">BÀI 3: Tạo form lấy đăng ký người dùng.</h1>
+    <label for="name">Họ và tên:</label><br>
+    <input type="text" name="ten" id="name"><br><br>
+    <label for="email">Email:</label><br>
+    <input type="text" name="email" id="email"><br><br>
+    <label for="sdt">Số điện thoại:</label><br>
+    <input type="text" name="dt" id="sdt"><br><br>
+    <label for="gioi tinh">Giới tính:</label><br>
+    <input type="radio" name="gt" id="">
+    <label for="">Nam</label>
+    <input type="radio" name="gt" id="">
+    <label for="">Nữ</label><br><br>
+    <input type="button" value="Đăng ký"><br><br>
+
+    <!-- Bài 4: TẠO BẢNG ĐƠN GIẢN. -->
+    <!-- Phần 1 -->
+    <h1 style="color: red;">BÀI 4: Tạo BẢNG ĐƠN GIẢN.</h1>
+    <table border="1" cellspacing="0">
+        <caption style="font-size: 23px; font-weight: bold;">Thời khóa biểu lớp T0908I</caption>
+        <thead>
+            <tr style="background-color: yellow;" height="30">
+                <th width="120">Thứ 3</th>
+                <th width="120">Thứ 5</th>
+                <th width="120">Thứ 7</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr height="30">
+                <td>CF - T1 , L1</td>
+                <td>CF - T2 , L2</td>
+                <td>CF - T3 , L3</td>
+            </tr>
+            <tr height="30">
+                <td>CF - T4 , L4</td>
+                <td>CF - Written Test</td>
+                <td>C - T1 , L1</td>
+            </tr>
+        </tbody>
+        <tfoot></tfoot>
+    </table><br><br>
+    <!-- Phần 2 -->
+    <table style="color: blue;" width="600">
+        <caption style="font-size: 40px; font-weight: bold; color: blue;">THỜI KHÓA BIỂU</caption>
+        <thead></thead>
+        <tbody>
+            <tr>
+                <td>Lớp: T0908I</td>
+                <td align="right">Thời gian học: 13h30 - 17h30</td>
+            </tr>
+            <tr>
+                <td>Giáo viên: KhoaNV</td>
+                <td align="right">Ngày học: Thứ 3, 5, 7</td>
+            </tr>
+            <tr>
+                <td>Phòng học: Abcdef</td>
+            </tr>
+        </tbody>
+        <tfoot></tfoot>
+    </table>
+    <table border="1" cellspacing="0">
+        <thead>
+            <tr style="background-color: yellow;" height="30">
+                <th colspan="3"></th>
+                <th width="120">Thứ 3</th>
+                <th width="120">Thứ 5</th>
+                <th width="120">Thứ 7</th>
+            </tr>
+            <tr style="background-color: darkorange;">
+                <th width="50">Tuần</th>
+                <th width="100">Ngày bắt đầu</th>
+                <th width="100">Ngày kết thúc</th>
+                <th colspan="3">Môn học</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td align="center">01</td>
+                <td>01/09/2009</td>
+                <td>05/09/2009</td>
+                <td>CF - T1 , L1</td>
+                <td>CF - T2 , L2</td>
+                <td>CF - T3 , L3</td>
+            </tr>
+            <tr>
+                <td align="center">02</td>
+                <td>08/09/2009</td>
+                <td>12/09/2009</td>
+                <td>CF - T4 , L4</td>
+                <td>CF - Written Test</td>
+                <td>C - T1 , L1</td>
+            </tr>
+            <tr>
+                <td align="center">03</td>
+                <td>...</td>
+                <td>...</td>
+                <td>...</td>
+                <td>...</td>
+                <td>...</td>
+            </tr>
+        </tbody>
+        <tfoot></tfoot>
+    </table>
+
+    <!-- BÀI 5 -->
+    <h1 style="color: red;">BÀI 5: TẠO BẢNG NÂNG CAO.</h1>
+    <!-- Phần 1: Tạo bàn cờ vua. -->
+    <div style="background-color: rgb(255, 99, 42); width: 200px; height: 210px;">
+        <table cellspacing="0">
+            <caption></caption>
+            <thead></thead>
+            <tbody>
+                <tr align="center">
+                    <td></td>
+                    <td>1</td>
+                    <td>2</td>
+                    <td>3</td>
+                    <td>4</td>
+                    <td>5</td>
+                    <td>6</td>
+                    <td>7</td>
+                    <td>8</td>
+                </tr>
+                <tr>
+                    <td align="center">A</td>
+                    <td style="background-color: aliceblue;" width="20" height="20"></td>
+                    <td style="background-color: rgb(0, 0, 0);" width="20" height="20"></td>
+                    <td style="background-color: aliceblue;" width="20" height="20"></td>
+                    <td style="background-color: rgb(0, 0, 0);" width="20" height="20"></td>
+                    <td style="background-color: aliceblue;" width="20" height="20"></td>
+                    <td style="background-color: rgb(0, 0, 0);" width="20" height="20"></td>
+                    <td style="background-color: aliceblue;" width="20" height="20"></td>
+                    <td style="background-color: rgb(0, 0, 0);" width="20" height="20"></td>
+                </tr>
+                <tr>
+                    <td align="center">B</td>
+                    <td style="background-color: rgb(0, 0, 0);" width="20" height="20"></td>
+                    <td style="background-color: rgb(255, 255, 255);" width="20" height="20"></td>
+                    <td style="background-color: rgb(0, 0, 0);" width="20" height="20"></td>
+                    <td style="background-color: rgb(255, 255, 255);" width="20" height="20"></td>
+                    <td style="background-color: rgb(0, 0, 0);" width="20" height="20"></td>
+                    <td style="background-color: rgb(255, 255, 255);" width="20" height="20"></td>
+                    <td style="background-color: rgb(0, 0, 0);" width="20" height="20"></td>
+                    <td style="background-color: rgb(255, 255, 255);" width="20" height="20"></td>
+                </tr>
+                <tr>
+                    <td align="center">C</td>
+                    <td style="background-color: aliceblue;" width="20" height="20"></td>
+                    <td style="background-color: rgb(0, 0, 0);" width="20" height="20"></td>
+                    <td style="background-color: aliceblue;" width="20" height="20"></td>
+                    <td style="background-color: rgb(0, 0, 0);" width="20" height="20"></td>
+                    <td style="background-color: aliceblue;" width="20" height="20"></td>
+                    <td style="background-color: rgb(0, 0, 0);" width="20" height="20"></td>
+                    <td style="background-color: aliceblue;" width="20" height="20"></td>
+                    <td style="background-color: rgb(0, 0, 0);" width="20" height="20"></td>
+                </tr>
+                <tr>
+                    <td align="center">D</td>
+                    <td style="background-color: rgb(0, 0, 0);" width="20" height="20"></td>
+                    <td style="background-color: rgb(255, 255, 255);" width="20" height="20"></td>
+                    <td style="background-color: rgb(0, 0, 0);" width="20" height="20"></td>
+                    <td style="background-color: rgb(255, 255, 255);" width="20" height="20"></td>
+                    <td style="background-color: rgb(0, 0, 0);" width="20" height="20"></td>
+                    <td style="background-color: rgb(255, 255, 255);" width="20" height="20"></td>
+                    <td style="background-color: rgb(0, 0, 0);" width="20" height="20"></td>
+                    <td style="background-color: rgb(255, 255, 255);" width="20" height="20"></td>
+                </tr>
+                <tr>
+                    <td align="center">E</td>
+                    <td style="background-color: aliceblue;" width="20" height="20"></td>
+                    <td style="background-color: rgb(0, 0, 0);" width="20" height="20"></td>
+                    <td style="background-color: aliceblue;" width="20" height="20"></td>
+                    <td style="background-color: rgb(0, 0, 0);" width="20" height="20"></td>
+                    <td style="background-color: aliceblue;" width="20" height="20"></td>
+                    <td style="background-color: rgb(0, 0, 0);" width="20" height="20"></td>
+                    <td style="background-color: aliceblue;" width="20" height="20"></td>
+                    <td style="background-color: rgb(0, 0, 0);" width="20" height="20"></td>
+                </tr>
+                <tr>
+                    <td align="center">F</td>
+                    <td style="background-color: rgb(0, 0, 0);" width="20" height="20"></td>
+                    <td style="background-color: rgb(255, 255, 255);" width="20" height="20"></td>
+                    <td style="background-color: rgb(0, 0, 0);" width="20" height="20"></td>
+                    <td style="background-color: rgb(255, 255, 255);" width="20" height="20"></td>
+                    <td style="background-color: rgb(0, 0, 0);" width="20" height="20"></td>
+                    <td style="background-color: rgb(255, 255, 255);" width="20" height="20"></td>
+                    <td style="background-color: rgb(0, 0, 0);" width="20" height="20"></td>
+                    <td style="background-color: rgb(255, 255, 255);" width="20" height="20"></td>
+                </tr>
+                <tr>
+                    <td align="center">G</td>
+                    <td style="background-color: aliceblue;" width="20" height="20"></td>
+                    <td style="background-color: rgb(0, 0, 0);" width="20" height="20"></td>
+                    <td style="background-color: aliceblue;" width="20" height="20"></td>
+                    <td style="background-color: rgb(0, 0, 0);" width="20" height="20"></td>
+                    <td style="background-color: aliceblue;" width="20" height="20"></td>
+                    <td style="background-color: rgb(0, 0, 0);" width="20" height="20"></td>
+                    <td style="background-color: aliceblue;" width="20" height="20"></td>
+                    <td style="background-color: rgb(0, 0, 0);" width="20" height="20"></td>
+                </tr>
+                <tr>
+                    <td align="center">H</td>
+                    <td style="background-color: rgb(0, 0, 0);" width="20" height="20"></td>
+                    <td style="background-color: rgb(255, 255, 255);" width="20" height="20"></td>
+                    <td style="background-color: rgb(0, 0, 0);" width="20" height="20"></td>
+                    <td style="background-color: rgb(255, 255, 255);" width="20" height="20"></td>
+                    <td style="background-color: rgb(0, 0, 0);" width="20" height="20"></td>
+                    <td style="background-color: rgb(255, 255, 255);" width="20" height="20"></td>
+                    <td style="background-color: rgb(0, 0, 0);" width="20" height="20"></td>
+                    <td style="background-color: rgb(255, 255, 255);" width="20" height="20"></td>
+                </tr>
+            </tbody>
+            <tfoot></tfoot>
+        </table>
+    </div>
+
+    <!-- TẠO LỊCH -->
+    <table style="table-layout:fixed; width: 40%;">
+        <caption style="font-size: 40px; font-weight: bold; color: blue;">Tháng 10 - October</caption>
+        <thead style="height: 70px;">
+            <tr style="color: white;">
+                <th style="background-color: red;">C.Nhật</th>
+                <th style="background-color: rgb(255, 151, 14);">T.Hai</th>
+                <th style="background-color: rgb(255, 151, 14);">T.Ba</th>
+                <th style="background-color: rgb(255, 151, 14);">T.Tư</th>
+                <th style="background-color: rgb(255, 151, 14);">T.Năm</th>
+                <th style="background-color: rgb(255, 151, 14);">T.Sáu</th>
+                <th style="background-color: blue;">T.Bảy</th>
+            </tr>
+            <tr align="center">
+                <td style="color: red;">Sun</td>
+                <td>Mon</td>
+                <td>Tue</td>
+                <td>Wed</td>
+                <td>Thu</td>
+                <td>Fri</td>
+                <td style="color: blue;">Sat</td>
+            </tr>
+        </thead>
+        <tbody></tbody>
+        <tfoot></tfoot>
+    </table>
+    <table style="table-layout:fixed; width: 40%; height:175px ;" border="1" cellspacing="0">
+        <thead></thead>
+        <tbody align="center">
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>1<sub>13</sub></td>
+                <td>2<sub>14</sub></td>
+                <td style="color: blue;">3<sub>15</sub></td>
+            </tr>
+            <tr>
+                <td style="color: red;">4<sub>15</sub></td>
+                <td>5<sub>17</sub></td>
+                <td>6<sub>18</sub></td>
+                <td>7<sub>19</sub></td>
+                <td>8<sub>20</sub></td>
+                <td>9<sub>21</sub></td>
+                <td style="color: blue;">10<sub>22</sub></td>
+            </tr>
+            <tr>
+                <td style="color: red;">11<sub>23</sub></td>
+                <td>12<sub>24</sub></td>
+                <td>13<sub>25</sub></td>
+                <td>14<sub>26</sub></td>
+                <td>15<sub>27</sub></td>
+                <td>16<sub>28</sub></td>
+                <td style="color: blue;">17<sub>29</sub></td>
+            </tr>
+            <tr>
+                <td style="color: red;">18<sub>1.9</sub></td>
+                <td>19<sub>2</sub></td>
+                <td>20<sub>3</sub></td>
+                <td>21<sub>4</sub></td>
+                <td>22<sub>5</sub></td>
+                <td>23<sub>6</sub></td>
+                <td style="color: blue;">24<sub>7</sub></td>
+            </tr>
+            <tr>
+                <td style="color: red;">25<sub>8</sub></td>
+                <td>26<sub>9</sub></td>
+                <td>27<sub>10</sub></td>
+                <td>28<sub>11</sub></td>
+                <td>29<sub>12</sub></td>
+                <td>30<sub>13</sub></td>
+                <td style="color: blue;">31<sub>14</sub></td>
+            </tr>
+        </tbody>
+        <tfoot></tfoot>
+    </table>
+</body>
+
+</html>
