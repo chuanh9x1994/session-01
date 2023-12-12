@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            display: flex;
+            /* flex-direction:row; */
+            justify-content: space-around;
+            background-color: aqua;
+            height: 100px;
+            align-items: stretch;
+            flex-wrap: wrap;
+ 
+        }
+        .item{
+            background-color: red;
+            margin: 5px;
+            height: 20px;
+            width: 700px;
+ 
+        }
+        /* .item1{
+            flex: 3;
+        }
+        .item2, .item3, .item4{
+            flex: 1;
+        } */
+    </style>
+</head>
+<body>
+    <!-- 
+        Flex: dùng để căn chỉnh layout.
+            - Để nắm được flex thì đầu tiên cần nắm chắc: 
+                Trước hết cần có thuộc tính display: flex.
+                khi 1 element có display=flex thì nó trở thành flex-container.
+                1, flex-container: 
+                    Là thằng cha chứa các thằng con.
+                2, flex-item
+                    Là các thằng con.
+                3, Nắm được 2 trục: 
+                    - trục main-axis : trục chính. 
+                        trục này ăn theo thuộc tính Justify-content:
+                        justify-content có các giá trị sau:
+                            . Center : ở giữa
+                            . Space-between : giàn đều
+                            . Space-around : 
+                            . Space-evenly : giàn đều tính cả 2 lề.
+                    - trục cross-axis : trục phụ.
+                        trục này ăn theo thuộc tính Align-item:
+                    Hai trục này luôn luôn vuông góc với nhau.
+                4, Thuộc tính Flex-direction: mặc định là row.
+                    - Khi flex-direction là row thì trục chính nằm ngang
+                        còn trục phụ nằm dọc.
+                    - Khi flex-direction là column thì trục chính nằm dọc,
+                        còn trục phụ nằm ngang
+                Khi chiều rộng của con lớn hơn chiều rộng của cha,
+                sử dụng flex-wrap: wrap thì con sẽ hiện thị đủ và tự động xuống dòng.
+     -->
+
+     <div class="container">
+        <div class="item item1">item</div>
+        <div class="item item2">item</div>
+        <div class="item item3">item</div>
+        <div class="item item4">item</div>
+     </div>
+
+</body>
+</html>

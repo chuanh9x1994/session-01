@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <style>
+        .box{
+            width: 100px;
+            height: 100px;
+            background-color: red;
+            margin: 5px;
+        }
+        .box1{
+            /* margin-top: 50px; */
+            position: relative;
+            top: 50px;
+        }
+        .box2{
+            width: 100px;
+            height: 100px;
+            background-color: green;
+        }
+        .container{
+            width: 200px;
+            height: 200px;
+            background-color: gray;
+            position: relative;
+        }
+        .absolute{
+            width: 80px;
+            height: 80px;
+            background-color: yellow;
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+        .cha{
+            position: relative;
+            background-color: gray;
+            width: 500px;
+        }
+        .con{
+            position:absolute;
+            top: 0px;
+            right:260px;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- mục đích position để đinh vị, vị trí các khối.
+            - Các trạng thái: 
+                1, Static: mặc định.
+                2, Relative: vị trí tương đối.
+                3, Absolute: vị trí tuyệt đối.
+                4, Fixed: 
+                5, Sticky: 
+    -->
+    <!-- I. REATIVE:  
+            - Khi 1 element có thuộc tính position là  relative thì
+                nó sẽ lấy vị trí ban đầu của nó để làm gốc. khi 
+                đó muốn căn chỉnh khối thì dùng các thuộc tính, ví dụ:
+                 left : 5px , top : 5px , right: 5px , bottom: 5px.
+    -->
+    <!-- II. ABSOLUTE:
+            - Nó sẽ ăn theo thằng cha chứa nó gần nhất có thuộc tính là position.
+            - Nếu ko có thì sẽ ăn theo kích thước màn hình
+
+    -->
+    <!-- III. FIXED: 
+            - Mục đích để tạo thanh header khi kéo màn hình thì đối tượng vẫn giữ nguyên vị trí ở màn hình.
+    -->
+    <!-- IV. STICKY:
+            - https://www.w3schools.com/howto/howto_css_sticky_element.asp
+     -->
+    <div class="box box1">
+        box1
+    </div>
+
+    <div class="box box2">
+        box2
+    </div>
+
+    <div class="container">
+        box container
+        <div class="absolute">
+            box-absollute
+        </div>
+    </div><br>
+
+    <!-- VD1: -->
+    <div class="cha">
+        <label>User name:</label>
+        <input type="text">
+        <div class="con">
+            <span class="material-symbols-outlined">
+                visibility
+                </span>
+        </div>
+    </div>
+</body>
+
+</html>
