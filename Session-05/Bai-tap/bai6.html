@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        article {
+            background-color: antiquewhite;
+        }
+
+        td {
+            background-color: white;
+            width: 420px;
+            height: 379px;
+            filter: drop-shadow(0.001em 0.001em 0.1em black);
+            border-radius: 3px;
+            position: relative;
+        }
+
+        img {
+            width: 410px;
+            position: absolute;
+            top: 5px;
+            left: 5px;
+        }
+
+        .sp {
+            position: absolute;
+            left: 5px;
+            top: 285px;
+        }
+
+        input {
+            width: 150px;
+            height: 35px;
+            color: white;
+            background-color: cornflowerblue;
+            border: 0;
+            border-radius: 3px;
+            margin-top: 5px;
+            font-size: 14px;
+        }
+
+        p {
+            font-size: 18px;
+        }
+
+        .tensp {
+            font-weight: bold;
+            margin-bottom: 5px;
+            font-size: 20px;
+        }
+
+        a {
+            text-decoration: none;
+            position: relative;
+            left: 20px;
+            font-size: 25px;
+            color: rgb(224, 152, 59);
+        }
+
+        a:hover {
+            color: red;
+        }
+
+        footer {
+            background-color: rgb(5, 13, 13);
+            height: 150px;
+        }
+
+        .textft {
+            color: white;
+            height: 150px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 15px;
+        }
+    </style>
+</head>
+
+<body>
+    <header></header>
+    <nav>
+        <a href="">Home</a>
+        <hr>
+    </nav>
+    <article>
+        <table cellspacing="50" ;>
+            <caption></caption>
+            <thead></thead>
+            <tbody>
+                <tr>
+                    <td>
+                        <img src="../img/1.jpg" alt="">
+                        <div class="sp">
+                            <p class="tensp">
+                                Sản phẩm 1
+                            </p>
+                            <p>
+                                Giá: $10
+                            </p>
+                            <input type="button" value="Thêm vào giỏ hàng">
+                        </div>
+                    </td>
+                    <td>
+                        <img src="../img/1.jpg" alt="">
+                        <div class="sp">
+                            <p class="tensp">
+                                Sản phẩm 2
+                            </p>
+                            <p>
+                                Giá: $16
+                            </p>
+                            <input type="button" value="Thêm vào giỏ hàng">
+                        </div>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <img src="../img/1.jpg" alt="">
+                        <div class="sp">
+                            <p class="tensp">
+                                Sản phẩm 3
+                            </p>
+                            <p>
+                                Giá: $20
+                            </p>
+                            <input type="button" value="Thêm vào giỏ hàng">
+                        </div>
+                    </td>
+                    <td>
+                        <img src="../img/1.jpg" alt="">
+                        <div class="sp">
+                            <p class="tensp">
+                                Sản phẩm 4
+                            </p>
+                            <p>
+                                Giá: $25
+                            </p>
+                            <input type="button" value="Thêm vào giỏ hàng">
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <img src="../img/1.jpg" alt="">
+                        <div class="sp">
+                            <p class="tensp">
+                                Sản phẩm 5
+                            </p>
+                            <p>
+                                Giá: $30
+                            </p>
+                            <input type="button" value="Thêm vào giỏ hàng">
+                        </div>
+                    </td>
+                    <td>
+                        <img src="../img/1.jpg" alt="">
+                        <div class="sp">
+                            <p class="tensp">
+                                Sản phẩm 6
+                            </p>
+                            <p>
+                                Giá: $35
+                            </p>
+                            <input type="button" value="Thêm vào giỏ hàng">
+                        </div>
+                    </td>
+                </tr>
+            </tbody>
+            <tfoot></tfoot>
+        </table>
+    </article>
+    <footer>
+        <div class="textft">
+            <p>
+                Trang web bán hàng của chúng tôi
+            </p>
+            <p>
+                Email: anhct1012@gmail.com
+            </p>
+        </div>
+    </footer>
+</body>
+
+</html>

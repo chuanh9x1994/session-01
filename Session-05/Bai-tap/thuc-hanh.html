@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .header{
+            background-color: black;
+            color: white;
+            height: 100px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .container{
+        }
+        ul{
+            width: 200px;
+            display: flex;
+            list-style: none;
+            justify-content: space-around;
+        }
+        .item1{
+            font-size: 50px;
+            padding-left: 20px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        a{
+            color: white;
+            text-decoration: none;
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+        }
+        a:hover{
+            color: aqua;
+        }
+        .form{
+            text-align: center;
+            position: relative;
+            width: 800px;
+            margin: 0 auto  ;
+        }
+        .title{
+            font-size: 30px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .input{
+            width: 800px;
+        }
+        label{
+            font-family: Arial, Helvetica, sans-serif;
+            position: absolute;
+            left: 0;
+        }
+        .search{
+            position: absolute;
+            left: 0;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div class="item1">Hotel Search</div>
+        <nav class="container">
+           <ul>
+            <li><a href="">About</a></li>
+            <li><a href="">Home</a></li>
+            <li><a href="">Contact</a></li>
+           </ul>
+        </nav>
+    </header>
+    <article>
+        <form action="" class="form">
+            <h1 class="title">
+                Find the Perfect Hotel for You
+            </h1>
+            <label for="des">Destination:</label>
+            <br>
+            <input type="text" id="des" placeholder="Enter a ..." class="input">
+            <br><br>
+            <label for="checkin">Check-in:</label>
+            <br>
+            <input type="date" name="" id="checkin" class="input">
+            <br><br>
+            <label for="checkout">Check-out:</label>
+            <br>
+            <input type="date" name="" id="checkout" class="input">
+            <br><br>
+            <label for="">Guasts</label>
+            <br><br>
+            <select name="" id="" class="input">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+            </select><br><br>
+            <input type="button" value="Search" class="search">
+        </form>
+    </article>
+</body>
+</html>
